@@ -1,3 +1,15 @@
+# Run
+
+# Setup
+- `npx create-react-app client-side`
+- `npm install axios`  ...promise based HTTP client (used for communication with server side)
+- `npm install react-router-dom`  ... used for router implementations and operations
+
+
+
+
+
+------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
