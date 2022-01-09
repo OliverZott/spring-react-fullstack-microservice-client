@@ -4,9 +4,21 @@
 - `npx create-react-app client-side`
 - `npm install axios`  ...promise based HTTP client (used for communication with server side)
 - `npm install react-router-dom`  ... used for router implementations and operations
+- `npm install bootstrap jquery popper.js`
+- `npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome`
+  - https://fontawesome.com/start
+  - https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core
+  - https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons
+  - https://www.npmjs.com/package/@fortawesome/react-fontawesome
 
 
-
+### Typescript
+- https://create-react-app.dev/docs/adding-typescript/
+- Initialize react with typescript:
+  - `npx create-react-app my-app --template typescript`
+- Add TS to existing react-app:
+  - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
+- 
 
 
 ------------------
