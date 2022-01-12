@@ -1,7 +1,7 @@
 import axios from "axios";
 import { BehaviorSubject } from "rxjs";
 
-// not working --> ZUUL error
+// not working --> Zuul error
 // const API_URL = "http://localhost:8765/api/user/service/";
 const API_URL = "http://localhost:8000/service/";
 const currentUserSubject = new BehaviorSubject(
