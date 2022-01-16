@@ -2,13 +2,13 @@ import React from 'react';
 import CourseService from '../../services/course.service'
 
 
-export default class DefaultPage extends React.Component {
+export default class DetailPage extends React.Component {
 
     constructor (props) {
         super(props);
 
         this.state = {
-            id: this.props.match.params.id,
+            id: this.props.match.params.id,     // for query-param in ULR ???
             course: JSON.parse(localStorage.getItem('currentCourse')),
             students: []
         };
