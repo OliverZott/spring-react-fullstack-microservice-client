@@ -19,6 +19,9 @@
 - Add TS to existing react-app:
   - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest`
 - 
+# Resources
+- https://github.com/senolatac/react-springboot-microservices
+
 
 
 ------------------
