@@ -31,8 +31,7 @@ export default class LoginPage extends React.Component {
         this.setState({ user: user });
     }
 
-    handleLogin (e) {
-        e.preventDefault();
+    handleLogin (e) {Switch
         this.setState({ submitted: true });
         const { user } = this.state;
 
