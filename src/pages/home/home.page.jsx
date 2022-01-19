@@ -47,7 +47,7 @@ export default class HomePage extends React.Component {
         CourseService.createTransaction(transaction).then(data => {
             this.setState({ infoMessage: "You enrolled to a course" })
         }, error => {
-            this.setState({ errorMessage: "Unexpected error ocurred :(" })
+            this.setState({ errorMessage: "Unexpected error occurred :(" })
         });
     }
 
